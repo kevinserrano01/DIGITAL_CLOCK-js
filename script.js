@@ -21,5 +21,4 @@ let clock = () => {
     setTimeout(clock, 1000)
 }
 
-//llamamos a la funcion clock
 clock();
