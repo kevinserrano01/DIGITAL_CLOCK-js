@@ -1,0 +1,48 @@
+:root {
+    --primary-dark: #333;
+    --primary-light: #ededed;
+    --secondary-light: #fefefe;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Archivo Black', sans-serif;
+}
+
+.clock {
+	height: 100vh;
+	width: 100%;
+	background-color: #1d1d1d;
+	color: #ffffff;
+	display: grid;
+	place-items: center;
+	font-size: 180px;
+}
+
+.footer{
+    background-color: #1d1d1d;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-size: 20px;
+}
+
+.bi-github {
+    color: #ffffff;
+    font-size: 34px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.bi-github:hover {
+    transform: rotate(360deg) scale(1.2);
+}
